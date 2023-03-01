@@ -65,4 +65,52 @@ Notes by Soumyajeet Bal
 - if num%2==0 : 
 - and or not operators 
 - elif (it is basically else if)
+
+### 11 - For loop [Python 3 Programming Tutorials]
+
+```
+exp=[1,10,11,22,15]
+sum=0
+for i in exp:
+    sum=sum+i
+print (sum)
+```
+- range(1,11,2)  -  here 1 is the starting point; 11-1 is the end point; and 2 is the incrementation value
+- len(list) can be used in range 
+- while and do while
+
+### 12 - Functions [Python 3 Programming Tutorials]
+- to avoid code repetation
+- def a_Fun() - def is used to define a funtion
+- function argument, function parameter, return value, function body
+- Position arguments and named arguments - named arguments (b=10,a=5)
+- Global vs local varible (scope is limited to the particular code block)
+- missing argument ( you can initialize default varible in function parameter incase there is argument missing) i.e def lol(a,b=0) ; here b is default varible
+- documentation """ """
+
+https://www.geeksforgeeks.org/differences-and-applications-of-list-tuple-set-and-dictionary-in-python/
+
+### 13 - Dictionaries and Tuples [Python 3 Programming Tutorials]
+- something called key and value
+```
+d={"tom":5651,"sam":6525,"lol":5621,"rob":4584}
+print(d["lol"])
+```
+- del d["lol"] will delete the value of key "lol" in dictionary d
+```
+for key in d: 
+  print(d[key])
+```
+- tuples 
+```
+for k,v in d.items():
+  print(v)
+print("sam" in d)
+d.clear()
+```
+### Tuples 
+```
+point=(5,9)
+```
+- Tuple is immuttable unnlike list which mutable
 - 
