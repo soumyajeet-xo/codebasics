@@ -1,3 +1,4 @@
+Notes by Soumyajeet Bal
 ### 1 - What is Data Science?
 - Introduction to datascience
 - Some examples related to application of data science (store data analysis for decision maybe marketing, etc)
@@ -30,7 +31,38 @@
 - precedence in opearators 
 - 6-5.7 = 0.2999998 (floating number always loose accurancy)
 
-### 6 - 4. Strings [Python 3 Programming Tutorials]
+### 6 Strings [Python 3 Programming Tutorials]
 - how python stores string (array of characters)
 - ith positon of a string is string[i]
 - Strings are immutable i.e you cannot change them once created
+- String slicing using index subrange string[0:3] 0 to 3-1.
+- double quotes and single quotes and triple quotes (internally uses \n)
+- + for concatenation
+- str function converts a number to string
+
+### 7 - Lists [Python 3 Programming Tutorials]
+- collection of item
+- list= ["one","two","three","four"]
+- list can be manipulated and altered
+- list[0:2] print the list elements from 0 to 1
+- list[-1] prints the last element
+- there are several function to operate with the list i.e list.append("butter")
+- list.insert(1, "butter") all other elements gets shifted
+- + sign can be used to join two list
+- len(list) prints length of the list
+- "bread" in list (searches for bread in list; return true if found )
+
+### 8 -Install PyCharm on Windows [Python 3 Programming Tutorials]
+- pycharm download 
+- basic installation setup
+
+### 9 - Debug Python code using PyCharm [Python 3 Programming Tutorials]
+- breakpoint in pycharm
+
+### 10 - If Statement [Python 3 Programming Tutorials]
+- input() for taking input
+- int(var_name) can be used to convert the string to integer
+- if num%2==0 : 
+- and or not operators 
+- elif (it is basically else if)
+- 
